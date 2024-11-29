@@ -1,4 +1,4 @@
-package sms
+package local
 
 import (
 	"apylee_chat_server/internal/service/redis"
@@ -15,8 +15,8 @@ import (
 )
 
 const (
-	accessKeyID     = "***REMOVED***5tCxn7tk8vU4MHtNkHQU"
-	accessKeySecret = "6eH8pCI2KH045k7k3qosAhnoUeaKZm"
+	accessKeyID     = "your accessKeyID in alibaba cloud"
+	accessKeySecret = "your accessKeySecret in alibaba cloud"
 )
 
 var smsClient *dysmsapi20170525.Client
