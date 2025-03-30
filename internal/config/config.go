@@ -29,7 +29,7 @@ type RedisConfig struct {
 
 type AuthCodeConfig struct {
 	AccessKeyID     string `toml:"accessKeyID"`
-	***REMOVED*** string `toml:"accessKeySecret"`
+	AccessKeySecret string `toml:"accessKeySecret"`
 	SignName        string `toml:"signName"`
 	TemplateCode    string `toml:"templateCode"`
 }
