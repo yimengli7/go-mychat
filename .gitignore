@@ -38,3 +38,10 @@ internal/service/kafka/start.bat
 *.sh
 
 *.ext
+
+cmd/kama_chat_server/kama_chat_backend
+/build/
+/bin/
+/*.exe
+/*.out
+/*.bin
