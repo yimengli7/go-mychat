@@ -1,4 +1,4 @@
-# KamaChat
+# Go-MyChat
 
 ## Project Overview
 
